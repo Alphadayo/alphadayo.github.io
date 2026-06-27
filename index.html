@@ -1,1 +1,130 @@
-<p>hi</p>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphadayo's Room</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #334155;
+            --text-sub: #64748b;
+            --accent: #6366f1; /* 柔らかなパープルブルー */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background-color: var(--accent);
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--text-sub);
+            font-size: 0.95rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        section h2 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .links a {
+            display: block;
+            background: var(--bg-color);
+            color: var(--text-main);
+            text-decoration: none;
+            padding: 0.75rem;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .links a:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: var(--text-sub);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="avatar"></div>
+            <h1>Alphadayo</h1>
+            <p>Welcome to my personal website.</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>About</h2>
+                <p>ここに簡単な自己紹介や、今ハマっていること、趣味などを自由に書けます。普通の個人サイト用のシンプルなスペースです。</p>
+            </section>
+
+            <section>
+                <h2>Links</h2>
+                <div class="links">
+                    <a href="#" target="_blank">X (Twitter)</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">My Blog</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Alphadayo.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
